@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 1px solid #ff5252;
-    color: #ff5252;
+    border-bottom: 1px solid #EDE2AD;
+    color: #054F68;
 }
 
 .display-inline-block {
@@ -14,4 +14,21 @@
 
 .link-buttons {
     margin: 0 4px;
+}
+
+a {
+    color: #054F68;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+color-schema {
+    color: #054F68;
+    color: #06AB90;
+    color: #E7A73F;
+    color: #EDE2AD;
+    color: #FC6D62;
 }
