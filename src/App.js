@@ -6,18 +6,17 @@ import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
-    <Header/>
     <Switch>
       <Route path="/" component={Home} exact></Route>
       <Route path="/about" component={About} exact></Route>
       <Route path="/login" component={Login} exact></Route>
       <Route component={PageNotFound}></Route>
     </Switch>
-    <Footer/>
     </>
   );
 }
