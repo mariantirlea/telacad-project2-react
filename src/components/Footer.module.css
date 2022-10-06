@@ -1,0 +1,11 @@
+.link-buttons {
+    margin: 0 4px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ff5252;
+    color: #ff5252;
+    padding: 10px;
+}
